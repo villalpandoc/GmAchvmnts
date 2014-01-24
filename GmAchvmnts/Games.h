@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -16,6 +17,7 @@ public:
 	void put_gameID(int n) { gameID = n; }
 	void put_gameName(string n) { gameName = n; }
 
+	vector<Games> gamesData;
 private:
 	int gameID;
 	string gameName;

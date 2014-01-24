@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -19,6 +20,7 @@ public:
 	void put_achvmntsName(string n) { achvmntsName = n; }
 	void put_achvmntsPoints(int n) { achvmntsPoints = n; }
 
+	vector<Achievements> achvmntsData;
 private:
 	int gameID;
 	int achvmntsID;

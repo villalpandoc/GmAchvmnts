@@ -76,11 +76,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\CSCE113\P2GUI\P2GUI\customer.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\CSCE113\P2GUI\P2GUI\customer.h" />
     <ClInclude Include="Achievements.h" />
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Games.h" />
