@@ -1,8 +1,12 @@
 #include <iostream>
+#include "Commands.h"
 
 using namespace std;
 
 int main()
 {
-	system("Pause");
+	Commands menu;
+
+	menu.mainMenu();
+	system("pause");
 };

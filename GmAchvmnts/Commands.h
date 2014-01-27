@@ -1,10 +1,17 @@
+#ifndef COMMANDS_H
+#define COMMANDS_H
+
 #include <iostream>
 
 using namespace std;
 
+	bool validInput(std::string input);
+
 class Commands
 {
-	void addPlayer();
+public: 
+	void mainMenu();
+	void addPlayer(std::string player);
 	void addGamer();
 	void addAchvmnt();
 	void addPlays();
@@ -16,5 +23,8 @@ class Commands
 	void smmrzGame();
 	void smmrzAchvmnt();
 	void achvmntRank();
+
 	
 };
+
+#endif // !COMMANDS_H
